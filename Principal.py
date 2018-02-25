@@ -12,7 +12,9 @@ import numpy as np
 from WedgeFoS import factor_of_safety
 from RandomSets import random_sets
 from RST_plotting import plot_cumulative
-from Combinations1 import read_input_RS, cartesian, read_probability_assignment, independent_probabilty
+from Combinations1 import read_input_RS, cartesian, \
+    read_probability_assignment, independent_probabilty
+
 
 # This function reads the number of
 

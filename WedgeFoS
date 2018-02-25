@@ -1,0 +1,39 @@
+'''
+This model basically computes the FActor of Safety of a wedge
+based on the formulation of Low 1997.
+This is an explicit formulation
+Program developed by Rodrigo Hernández Carrillo
+
+The program reads a vector, that includes the variables ordered as:
+
+'''
+
+import numpy as np
+import itertools as it
+import matplotlib.pyplot as plt
+
+# Function to compute the factor of safety
+
+def FactorSafety (a1, b1): # Gw1, s, phi1, a2, b2, Gw2, phi2, c1, gamma)
+    a=a1+b1
+    return a
+
+def aa1(c,d):
+    return c+d
+
+if __name__=="__main__":
+    x=aa1(3,4)
+    y=FactorSafety(x,3)
+    print (y)
+
+
+
+
+
+
+
+
+
+
+
+
